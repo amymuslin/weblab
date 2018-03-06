@@ -1,0 +1,40 @@
+#name {
+  color: red;
+}
+
+body{
+  background-color: lavender;
+font-family: 'Cabin Sketch', cursive;
+}
+header{
+  color: deepskyblue;
+
+}
+a:hover{
+  background-color: yellow;
+}
+}
+h1{
+  color: violet;
+
+}
+h2{
+  color: blue;
+  border-bottom-style: solid;
+
+}
+strong{
+  color: hotpink;
+
+}
+ul{
+  color: hotpink;
+}
+
+body{
+  color: black;
+}
+
+em{
+  color: lightpink
+}
