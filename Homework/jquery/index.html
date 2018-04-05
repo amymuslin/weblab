@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>How to Groom a Horse</title>
+    <link rel="stylesheet" href="master.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+<div class="box">
+  How to groom your horse so you are ready for the show ring!
+  What should you do first?
+</div>
+
+<a href="#" id="currybrush">Curry Brush</a> | <a href="#" id="softbrush">Soft Brush</a> | <a href="#" id="pickfeet">Pick Feet</a> |
+<a href="#" id="putonbridle">Put Bridle On</ a> | <a href="#" id="putonsaddle">Put Saddle On</a>
+
+<script type="text/javascript">
+
+
+// $(".box"j.cc("background," "blue"))
+  $("#currybrush").click(function(){
+    $(".box").addClass( "box-bob" );
+    $(".box").html("Curry brush you should be using second! Use this in circular motions to get the dirt and dust out of their fur.");
+  })
+
+      $("#softbrush").click(function(){
+        $(".box").removeClass( "box-big" );
+          $(".box").addClass( "box-big" );
+        $(".box").html("Soft brush is used third to get excess dirt off and is gentle on their face.");
+    })
+
+
+    $("#pickfeet").click(function(){
+      $(".box").addClass( "box-bob" );
+      $(".box").show("box");
+          $(".box").html("This is the first step! Always pick your horses feet before doing anything.");
+  })
+
+  $("#putonbridle").click(function(){
+    $(".box").addClass( "box-bob" );
+    $(".box").show("box");
+        $(".box").html("Putting on the bridle is the last step to getting your horse ready.");
+})
+
+$("#putonsaddle").click(function(){
+  $(".box").addClass( "box-bob" );
+  $(".box").show("box");
+      $(".box").html("Putting on the saddle is the fifth step to getting your horse ready.");
+
+       });
+
+
+  </script>
+  </body>
+</html>
